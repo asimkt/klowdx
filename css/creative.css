@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Createive v4.0.0-beta (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -301,6 +301,49 @@ header.masthead {
 
 .btn-cta {
   letter-spacing: 2px; }
+
+.footer {
+  background: #333;
+  color: #eee;
+  padding: 70px 0; }
+  .footer .container {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between; }
+  .footer p {
+    color: inherit;
+    font-size: 14px;
+    font-family: Muli,'Helvetica Neue',Arial,sans-serif;
+    margin-bottom: 0; }
+  .footer ul > li {
+    list-style: none;
+    margin-left: 10px; }
+    .footer ul > li a {
+      padding: 2px;
+      background: #333;
+      border-radius: 3px;
+      display: block;
+      min-width: 28px;
+      text-align: center;
+      color: #eee;
+      transition: color .3s, opacity .3s;
+      opacity: .98; }
+      .footer ul > li a:hover {
+        color: #fff;
+        opacity: .8; }
+  .footer__content {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .footer__content--social {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      padding-left: 0;
+      justify-content: flex-end; }
 
 .text-primary {
   color: #0aa7ed !important; }
